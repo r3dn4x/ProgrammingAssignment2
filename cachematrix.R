@@ -8,7 +8,7 @@ makeCacheMatrix <- function(x = matrix()) { ## Initializes a function that
                                             ##   of the matrix), to NULL.
         set <- function(y) {                ## Caches the value of x to the new
                 x <<- y                     ##   passed matrix (y). Resets the 
-                i <<- NULL                  ##   inverse, i, back to NULL.
+                i <<- NULL                  ##   inverse (i) back to NULL.
         }
         get <- function() x                 ## This function takes no argument
                                             ##   and simply "gets" (returns) x.
